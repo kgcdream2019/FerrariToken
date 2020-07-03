@@ -1,0 +1,75 @@
+root@ubuntu:/home/ubuntu/FerraiToken# truffle migrate --reset --network=kovan
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 0x98bca4
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xebe47f40db8c69b4b5443a5064341a2daa7cc02a24062c3945ffd3acd035e894
+   > Blocks: 1            Seconds: 10
+   > contract address:    0x051cC39114F0a23373B338b45722D98943711455
+   > block number:        19384011
+   > block timestamp:     1593738752
+   > account:             0x76eCA35cFdE0B4c88551371dc02338F1c5E26a5D
+   > balance:             0.688138619
+   > gas used:            225225
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0045045 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 19384013)
+   > confirmation number: 2 (block: 19384014)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0045045 ETH
+
+
+2_deploy.js
+===========
+
+   Deploying 'FerrariToken'
+   ------------------------
+   > transaction hash:    0x8c67b0a9ef1f3f265cd56471fa6d7df750c5f54a09aaac24502bf92f92ce0acb
+   > Blocks: 1            Seconds: 6
+   > contract address:    0xD54b35a4A2fc385c4d6470812F8F3b6025ee509E
+   > block number:        19384019
+   > block timestamp:     1593738792
+   > account:             0x76eCA35cFdE0B4c88551371dc02338F1c5E26a5D
+   > balance:             0.664202259
+   > gas used:            1154455
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0230891 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 19384021)
+   > confirmation number: 2 (block: 19384022)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0230891 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0275936 ETH

@@ -1,0 +1,46 @@
+{
+  "name": "FerrariToken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:sol",
+    "lint:fix": "npm run lint:js:fix",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
+    "test": "npx mocha --exit --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgcdream2019/FerrariToken.git"
+  },
+  "keywords": [],
+  "author": "abcoathup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kgcdream2019/FerrariToken/issues"
+  },
+  "homepage": "https://github.com/kgcdream2019/FerrariToken#readme",
+  "devDependencies": {
+    "@openzeppelin/test-environment": "0.1.0-rc.1",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha-no-only": "^1.1.0",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "ganache-cli": "^6.7.0",
+    "mocha": "^6.2.2",
+    "solhint": "^2.3.0",
+    "truffle": "^5.0.41",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0"
+  }
+}
